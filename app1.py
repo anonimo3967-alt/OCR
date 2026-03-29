@@ -5,7 +5,7 @@ import pytesseract
 from PIL import Image
 
 
-st.title("Reconocimiento y filtración de imagenes")
+st.title("Reconocimiento y filtración de imagenes", font = "monospace")
 
 img_file_buffer = st.camera_input("Say cheeseeeee")
 
